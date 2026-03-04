@@ -1,0 +1,106 @@
+.container {
+  width: 100%;
+  max-width: 1300px; /* Use the same width for both sections to align them */
+  margin: 0 auto; /* Centers the content horizontally */
+  padding: 0 20px; /* Optional: adds a safety margin for smaller screens */
+  box-sizing: border-box;
+}
+.search-area {
+  background-color: #f5f7f8;
+  padding: 40px 0 20px 0; /* Adjust vertical spacing */
+  margin-bottom: 0; /* Removes space between search and banner */
+}
+.hero-banner {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  padding: 0; /* Aligns perfectly with the top */
+}
+
+.hero-content {
+  display: flex;
+  width: 100%;
+  max-width: 100%; /* Changed to fill the container perfectly */
+  align-items: stretch;
+  gap: 0;
+}
+
+/* Left Container */
+.hero-left {
+  flex: 1;
+  background-color: #e6ddda;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-left: 40px;
+}
+
+/* Image */
+.hero-image {
+  flex: 2; /* Gives more horizontal space to the central image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*  image fills without distorting */
+  display: block;
+}
+
+/* Right Container */
+.hero-right-card {
+  flex: 0 0 350px;
+  background-color: #d8eff1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-right: 40px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.btn-card {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+}
