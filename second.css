@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1300px; /* Use the same width for both sections to align them */
   margin: 0 auto; /* Centers the content horizontally */
-  padding: 0 20px; /* Optional: adds a safety margin for smaller screens */
+  padding: 0 20px;
   box-sizing: border-box;
 }
 .search-area {
