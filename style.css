@@ -1,97 +1,98 @@
+@import url("./footer.css");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 40px;
-  background-color: #fff;
-  border-bottom: 1px solid #eee;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 40px;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
 }
 
 .nav-left,
 .nav-links {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 15px;
+	display: flex;
+	align-items: center;
+	list-style: none;
+	gap: 15px;
 }
 .nav-link {
-  text-decoration: none;
-  color: #555;
-  cursor: pointer;
+	text-decoration: none;
+	color: #555;
+	cursor: pointer;
 }
 
 .logo {
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	margin-right: 20px;
 }
 
 .nav-links li {
-  font-size: 14px;
-  color: #555;
-  cursor: pointer;
+	font-size: 14px;
+	color: #555;
+	cursor: pointer;
 }
 
 .nav-right {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  font-size: 14px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	font-size: 14px;
 }
 
 .search-area {
-  display: flex;
-  align-items: center;
-  padding: 20px 40px;
-  background-color: #f5f7f8;
-  gap: 20px;
+	display: flex;
+	align-items: center;
+	padding: 20px 40px;
+	background-color: #f5f7f8;
+	gap: 20px;
 }
 
 .search-box {
-  display: flex;
-  flex: 1;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex: 1;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .search-box input {
-  width: 100%;
-  padding: 15px;
-  border: none;
-  outline: none;
-  font-size: 16px;
-  background-color: #ececec;
+	width: 100%;
+	padding: 15px;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	background-color: #ececec;
 }
 
 .btn-search {
-  background-color: #00838c;
-  color: white;
-  border: none;
-  padding: 0 30px;
-  font-weight: bold;
-  cursor: pointer;
+	background-color: #00838c;
+	color: white;
+	border: none;
+	padding: 0 30px;
+	font-weight: bold;
+	cursor: pointer;
 }
 
 .domain-offers {
-  display: flex;
-  gap: 15px;
-  font-size: 12px;
-  white-space: nowrap;
+	display: flex;
+	gap: 15px;
+	font-size: 12px;
+	white-space: nowrap;
 }
 
 .offer strong {
-  color: #000;
+	color: #000;
 }
 
 .me {
-  background-color: #dcdad8;
-  padding: 2px;
-  border-radius: 50%;
-  font-family: Arial, sans-serif;
+	background-color: #dcdad8;
+	padding: 2px;
+	border-radius: 50%;
+	font-family: Arial, sans-serif;
 }
