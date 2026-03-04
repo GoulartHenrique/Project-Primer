@@ -3,20 +3,49 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Project-Primer</title>
+		<title>GoDaddy Navigation & Search</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<header>
-			<h1>Primer Project</h1>
+		<header class="navbar">
+			<div class="nav-left">
+				<div class="logo">GoDaddy</div>
+				<nav>
+					<ul class="nav-links">
+						<li>Domain Names</li>
+						<li>Websites & Hosting</li>
+						<li>Commerce</li>
+						<li>Email & Marketing</li>
+						<li>Expert Services</li>
+						<li>More</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="nav-right">
+				<a href="#" class="nav-link">Help Center</a>
+
+				<div class="user-menu">
+					<a href="#" class="nav-link"
+						>Sign In <span class="arrow">⌄</span></a
+					>
+				</div>
+
+				<a href="#" class="cart-icon">🛒</a>
+			</div>
 		</header>
 		<main>
-			<p>
-				Loren ipsun dolor sit anet, consectetur adipisci elit, sed
-				eiusnod tenpor incidunt ut labore et dolore nagna aliqua. Ut
-				enin ad ninin venian, quis nostrun exercitationen ullan corporis
-				suscipit laboriosan
-			</p>
+			<section class="search-area">
+				<div class="search-box">
+					<input type="text" placeholder="Type the domain you want" />
+					<button class="btn-search">Search Domain</button>
+				</div>
+				<div class="domain-offers">
+					<span class="offer"><strong>.online</strong> $0.99*</span>
+					<span class="offer"><strong>.net</strong> $14.99*</span>
+					<span class="offer"><strong>.inc</strong> $999.99*</span>
+					<span class="me">.me</span>$11.99
+				</div>
+			</section>
 		</main>
 		<footer>
 			<div class="container">
