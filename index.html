@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>GoDaddy Navigation & Search</title>
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="second.css" />
 	</head>
 	<body>
 		<header class="navbar">
@@ -12,24 +13,22 @@
 				<div class="logo">GoDaddy</div>
 				<nav>
 					<ul class="nav-links">
-						<li>Domain Names</li>
-						<li>Websites & Hosting</li>
-						<li>Commerce</li>
-						<li>Email & Marketing</li>
-						<li>Expert Services</li>
-						<li>More</li>
+						<li><a href="#">Domain Names</a></li>
+						<li><a href="#">Websites & Hosting</a></li>
+						<li><a href="#">Commerce</a></li>
+						<li><a href="#">Email & Marketing</a></li>
+						<li><a href="#">Expert Services</a></li>
+						<li><a href="#">More</a></li>
 					</ul>
 				</nav>
 			</div>
 			<div class="nav-right">
 				<a href="#" class="nav-link">Help Center</a>
-
 				<div class="user-menu">
 					<a href="#" class="nav-link"
 						>Sign In <span class="arrow">⌄</span></a
 					>
 				</div>
-
 				<a href="#" class="cart-icon">🛒</a>
 			</div>
 		</header>
@@ -43,29 +42,137 @@
 					<span class="offer"><strong>.online</strong> $0.99*</span>
 					<span class="offer"><strong>.net</strong> $14.99*</span>
 					<span class="offer"><strong>.inc</strong> $999.99*</span>
-					<span class="me">.me</span>$11.99
+					<span class="offer"><strong>.me</strong> $11.99</span>
+				</div>
+			</section>
+
+			<section class="hero-banner">
+				<div class="hero-content">
+					<div class="hero-left">
+						<p class="hero-subtitle">Websites & Commerce</p>
+						<h1 class="hero-title">
+							Tools for all your business firsts.
+						</h1>
+						<p class="hero-text">
+							Website and store solutions for any small business.
+						</p>
+						<div class="hero-buttons">
+							<button class="btn-black">Get Started</button>
+							<a href="#" class="btn-link">Learn More</a>
+						</div>
+						<p class="hero-footer-text">
+							No credit card required**
+						</p>
+					</div>
+
+					<div class="hero-image">
+						<img src="./img.jpg" alt="Business tools" />
+					</div>
+
+					<div class="hero-right-card">
+						<p class="card-subtitle">Domain Names</p>
+						<h2 class="card-title">
+							Grab a .com for just $0.01*/1st yr
+						</h2>
+						<p class="card-text">2-year purchase required*</p>
+						<button class="btn-card">Find Your Domain</button>
+						<div class="card-footer">
+							<p>Transfer Your Domains</p>
+							<p class="privacy-text">
+								Domains include free privacy protection forever*
+								ⓘ
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="services-grid-container">
+				<div class="services-grid">
+					<div class="service-item">Domains</div>
+					<div class="service-item">SSL Security</div>
+					<div class="service-item">Websites</div>
+					<div class="service-item">WordPress</div>
+					<div class="service-item">Email & Microsoft 365</div>
+					<div class="service-item">Website Design Services</div>
+					<div class="service-item">Online Store</div>
+					<div class="service-item">Web Hosting</div>
+
+					<div class="service-highlight">
+						<span class="shop-logo">.shop</span>
+						<p class="shop-promo">Sale! $0.99*/1st yr.</p>
+						<p class="shop-text">
+							Attract shoppers. Sell more stuff.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="success-steps">
+				<div class="container">
+					<h2 class="steps-main-title">Success in 3 steps.</h2>
+					<div class="steps-grid">
+						<div class="step-card">
+							<span class="step-number">1</span>
+							<h3 class="step-title">Sell everywhere.</h3>
+							<p class="step-description">
+								Sell in-person and online with our integrated
+								commerce solutions.
+							</p>
+						</div>
+
+						<div class="step-card">
+							<span class="step-number">2</span>
+							<h3 class="step-title">Market your business.</h3>
+							<p class="step-description">
+								Build a website and use our marketing tools to
+								reach more customers.
+							</p>
+						</div>
+
+						<div class="step-card">
+							<span class="step-number">3</span>
+							<h3 class="step-title">Grow your brand.</h3>
+							<p class="step-description">
+								Everything you need to succeed from domain names
+								to expert help.
+							</p>
+						</div>
+					</div>
 				</div>
 			</section>
 		</main>
+
 		<footer>
 			<div class="container border-bottom">
-				<div id="footer__top" class="d-flex flex-column">
-					<div class="col-12">
+				<div
+					id="footer__top"
+					class="d-flex flex-column flex-md-row pt-2 pb-2"
+				>
+					<div
+						class="order-2 order-md-1 col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start"
+					>
 						<p>Sign up for news and special offers</p>
 						<form action="#" method="dialog">
 							<input type="text" placeholder="Email address" />
 							<button type="submit">Sign Up</button>
 						</form>
 					</div>
-					<div class="col-12 d-flex justify-content-center">
+					<div
+						class="order-1 order-md-2 col-12 col-md-6 d-flex flex-column align-items-center align-items-md-end"
+					>
 						<p>We love taking your call.</p>
-						<div>GoDaddy guides - Logo</div>
+						<figure>
+							<a href="#"
+								><img src="./img/footer_guides.png"
+							/></a>
+							<figcaption>Link zum GoDaddy guides</figcaption>
+						</figure>
 					</div>
 				</div>
 			</div>
 			<div class="container border-bottom">
-				<!--<div id="footer__nav-menu-container">-->
-				<nav id="footer__nav-menu">
+				<nav id="footer__nav-menu" class="pt-2 pb-2">
 					<div
 						class="footer__nav-menu-list col-12 col-sm-4 col-lg-3 col-xl-auto"
 					>
@@ -147,30 +254,41 @@
 						</ul>
 					</div>
 				</nav>
-				<!--</div>-->
 			</div>
 			<div class="container border-bottom">
-				<div id="footer__media" class="flex-column flex-sm-row">
+				<div
+					id="footer__media"
+					class="flex-column flex-sm-row pt-2 pb-2"
+				>
 					<div class="d-flex">
-						<div>LOGO</div>
+						<figure>
+							<img src="./img/footer_logo.png" />
+							<figcaption>Footer Logo</figcaption>
+						</figure>
 						<div id="footer__media__lang">
-							<div>United States - English</div>
+							<div>
+								<span>United States - English</span>
+								<span><img src="./img/caret-up.svg" /></span>
+							</div>
 						</div>
 						<div id="footer__media-currency">
-							<div>USD</div>
+							<div>
+								<span>USD</span>
+								<span><img src="./img/caret-up.svg" /></span>
+							</div>
 						</div>
 					</div>
-					<div class="d-flex">
-						<a href="#" class="sm-fb-icon">fb</a>
-						<a href="#" class="sm-inst-icon">inst</a>
-						<a href="#" class="sm-tw-icon">tw</a>
-						<a href="#" class="sm-utube-icon">utube</a>
+					<div id="footer__media__sm">
+						<a href="#" class="sm-icon sm-icon--fb"></a>
+						<a href="#" class="sm-icon sm-icon--inst"></a>
+						<a href="#" class="sm-icon sm-icon--tw"></a>
+						<a href="#" class="sm-icon sm-icon--utube"></a>
 					</div>
 				</div>
 			</div>
 			<div class="container">
-				<div id="footer__policy">
-					<div class="order-1">
+				<div id="footer__policy" class="pt-2 pb-2">
+					<div class="order-1 mb-1">
 						<p>
 							Copyright 1999 - 2023 Lorem, ipsum dolor sit amet
 							consectetur adipisicing elit. Assumenda quae illum
@@ -190,13 +308,13 @@
 						</p>
 					</div>
 					<div
-						class="order-3 order-lg-2 d-flex flex-column align-items-lg-end"
+						class="order-3 order-lg-2 d-flex flex-column align-items-lg-end mb-1"
 					>
 						<a href="#">Legal</a>
 						<a href="#">Privacy Policy</a>
 						<a href="#">Cookies</a>
 					</div>
-					<div class="order-2 order-lg-3">
+					<div class="order-2 order-lg-3 mb-1">
 						<p>
 							Use of this Site is subject... bla bla bla... Lorem
 							ipsum dolor, sit amet consectetur adipisicing elit.
@@ -206,7 +324,7 @@
 							<a href="#">Ducimus, voluptates</a>.
 						</p>
 					</div>
-					<div class="order-4">
+					<div class="order-4 mb-1">
 						<p>Do not sell my personal information</p>
 					</div>
 				</div>
