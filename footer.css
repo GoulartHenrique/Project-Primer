@@ -4,6 +4,10 @@
 	padding: 0px;
 }
 
+.col-gap-1 {
+	column-gap: 1rem;
+}
+
 .border-bottom {
 	border-bottom: 2px solid gray;
 }
