@@ -145,23 +145,34 @@
 
 		<footer>
 			<div class="container border-bottom">
-				<div id="footer__top" class="d-flex flex-column">
-					<div class="col-12">
+				<div
+					id="footer__top"
+					class="d-flex flex-column flex-md-row pt-2 pb-2"
+				>
+					<div
+						class="order-2 order-md-1 col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start"
+					>
 						<p>Sign up for news and special offers</p>
 						<form action="#" method="dialog">
 							<input type="text" placeholder="Email address" />
 							<button type="submit">Sign Up</button>
 						</form>
 					</div>
-					<div class="col-12 d-flex justify-content-center">
+					<div
+						class="order-1 order-md-2 col-12 col-md-6 d-flex flex-column align-items-center align-items-md-end"
+					>
 						<p>We love taking your call.</p>
-						<div>GoDaddy guides - Logo</div>
+						<figure>
+							<a href="#"
+								><img src="./img/footer_guides.png"
+							/></a>
+							<figcaption>Link zum GoDaddy guides</figcaption>
+						</figure>
 					</div>
 				</div>
 			</div>
 			<div class="container border-bottom">
-				<!--<div id="footer__nav-menu-container">-->
-				<nav id="footer__nav-menu">
+				<nav id="footer__nav-menu" class="pt-2 pb-2">
 					<div
 						class="footer__nav-menu-list col-12 col-sm-4 col-lg-3 col-xl-auto"
 					>
@@ -243,30 +254,41 @@
 						</ul>
 					</div>
 				</nav>
-				<!--</div>-->
 			</div>
 			<div class="container border-bottom">
-				<div id="footer__media" class="flex-column flex-sm-row">
+				<div
+					id="footer__media"
+					class="flex-column flex-sm-row pt-2 pb-2"
+				>
 					<div class="d-flex">
-						<div>LOGO</div>
+						<figure>
+							<img src="./img/footer_logo.png" />
+							<figcaption>Footer Logo</figcaption>
+						</figure>
 						<div id="footer__media__lang">
-							<div>United States - English</div>
+							<div>
+								<span>United States - English</span>
+								<span><img src="./img/caret-up.svg" /></span>
+							</div>
 						</div>
 						<div id="footer__media-currency">
-							<div>USD</div>
+							<div>
+								<span>USD</span>
+								<span><img src="./img/caret-up.svg" /></span>
+							</div>
 						</div>
 					</div>
-					<div class="d-flex">
-						<a href="#" class="sm-fb-icon">fb</a>
-						<a href="#" class="sm-inst-icon">inst</a>
-						<a href="#" class="sm-tw-icon">tw</a>
-						<a href="#" class="sm-utube-icon">utube</a>
+					<div id="footer__media__sm">
+						<a href="#" class="sm-icon sm-icon--fb"></a>
+						<a href="#" class="sm-icon sm-icon--inst"></a>
+						<a href="#" class="sm-icon sm-icon--tw"></a>
+						<a href="#" class="sm-icon sm-icon--utube"></a>
 					</div>
 				</div>
 			</div>
 			<div class="container">
-				<div id="footer__policy">
-					<div class="order-1">
+				<div id="footer__policy" class="pt-2 pb-2">
+					<div class="order-1 mb-1">
 						<p>
 							Copyright 1999 - 2023 Lorem, ipsum dolor sit amet
 							consectetur adipisicing elit. Assumenda quae illum
@@ -286,13 +308,13 @@
 						</p>
 					</div>
 					<div
-						class="order-3 order-lg-2 d-flex flex-column align-items-lg-end"
+						class="order-3 order-lg-2 d-flex flex-column align-items-lg-end mb-1"
 					>
 						<a href="#">Legal</a>
 						<a href="#">Privacy Policy</a>
 						<a href="#">Cookies</a>
 					</div>
-					<div class="order-2 order-lg-3">
+					<div class="order-2 order-lg-3 mb-1">
 						<p>
 							Use of this Site is subject... bla bla bla... Lorem
 							ipsum dolor, sit amet consectetur adipisicing elit.
@@ -302,7 +324,7 @@
 							<a href="#">Ducimus, voluptates</a>.
 						</p>
 					</div>
-					<div class="order-4">
+					<div class="order-4 mb-1">
 						<p>Do not sell my personal information</p>
 					</div>
 				</div>
